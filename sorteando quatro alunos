@@ -1,0 +1,13 @@
+import random
+
+a= str(input('Digite o nome do primeiro alunx:'))
+b= str(input('Digite o nome do segundo alunx:'))
+c= str(input('Digite o nome do terceiro alunx:'))
+d= str(input('Digite o nome do quarto alunx:'))
+
+
+lista=[a,b,c,d]
+
+escolhido= random.choice(lista)
+
+print('O escolhido foi o alunx {}'.format(escolhido))
